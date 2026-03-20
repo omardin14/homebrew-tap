@@ -4,7 +4,7 @@ class ScrumAgent < Formula
   desc "AI-powered Scrum Master — decomposes projects into epics, stories, tasks, and sprint plans"
   homepage "https://github.com/omardin14/scrum-planning-ai-agent"
   url "https://files.pythonhosted.org/packages/source/s/scrum-agent/scrum_agent-1.0.0.tar.gz"
-  sha256 "PLACEHOLDER_SHA256"
+  sha256 "ef20b228179b4178f63a0703a54b956310965537a9e04e1ed84e95b081d9f27d"
   license "MIT"
 
   depends_on "python@3.12"
