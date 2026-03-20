@@ -1,6 +1,6 @@
 # Homebrew Tap for Scrum Agent
 
-Homebrew formulae for [scrum-agent](https://github.com/omardin14/scrum-jira-agent) — an AI-powered Scrum Master CLI.
+Homebrew formulae for [scrum-agent](https://github.com/omardin14/scrum-planning-ai-agent) — an AI-powered Scrum Master CLI.
 
 ## Install
 

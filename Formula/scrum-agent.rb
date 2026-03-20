@@ -2,7 +2,7 @@ class ScrumAgent < Formula
   include Language::Python::Virtualenv
 
   desc "AI-powered Scrum Master — decomposes projects into epics, stories, tasks, and sprint plans"
-  homepage "https://github.com/omardin14/scrum-jira-agent"
+  homepage "https://github.com/omardin14/scrum-planning-ai-agent"
   url "https://files.pythonhosted.org/packages/source/s/scrum-agent/scrum_agent-1.0.0.tar.gz"
   sha256 "PLACEHOLDER_SHA256"
   license "MIT"
