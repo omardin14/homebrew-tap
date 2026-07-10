@@ -1,13 +1,23 @@
 # Homebrew Tap for Scrum Agent
 
-Homebrew formulae for [scrum-agent](https://github.com/omardin14/scrum-planning-ai-agent) — an AI-powered Scrum Master CLI.
+> [!WARNING]
+> **scrum-agent is no longer installable via Homebrew.**
+> A required transitive dependency (`sqlite-vec`, via `langgraph-checkpoint-sqlite`)
+> publishes only wheels and no source distribution, so Homebrew's source-build
+> model cannot resolve the dependency tree. The formula in this tap is
+> intentionally disabled.
 
-## Install
+## Install (use uv or pipx instead)
 
 ```bash
-brew tap omardin14/tap
-brew install scrum-agent
+uv tool install scrum-agent     # recommended
+# or
+pipx install scrum-agent
 ```
+
+Both pull prebuilt wheels straight from PyPI and isolate the app in its own
+environment. See the [main project README](https://github.com/omardin14/scrum-planning-ai-agent#-quick-start)
+for full instructions, optional extras (voice input, extra providers), and setup.
 
 ## Post-install
 
